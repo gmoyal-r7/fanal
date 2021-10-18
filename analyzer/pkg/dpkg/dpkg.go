@@ -191,6 +191,8 @@ func (a dpkgAnalyzer) parseDpkgPkg(scanner *bufio.Scanner) (pkg *types.Package) 
 	pkg.SrcName = sourceName
 	pkg.SrcVersion = sourceVersion
 
+	pkg.Type = "dpkg"
+
 	return pkg
 }
 

@@ -30,6 +30,7 @@ type Package struct {
 	Modularitylabel string `json:",omitempty"` // only for Red Hat based distributions
 	License         string `json:",omitempty"`
 	Layer           Layer  `json:",omitempty"`
+	Type            string `json:",omitempty"`
 
 	// Each package metadata have the file path, while the package from lock files does not have.
 	FilePath string `json:",omitempty"`
