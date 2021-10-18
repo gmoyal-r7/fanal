@@ -8,15 +8,15 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/gmoyal-r7/fanal/utils"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 
 	"golang.org/x/xerrors"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
+	aos "github.com/gmoyal-r7/fanal/analyzer/os"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer"
 )
 
 const redhatAnalyzerVersion = 1

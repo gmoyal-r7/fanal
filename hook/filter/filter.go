@@ -3,9 +3,9 @@ package nodejs
 import (
 	"strings"
 
-	"github.com/aquasecurity/fanal/hook"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/gmoyal-r7/fanal/hook"
+	"github.com/gmoyal-r7/fanal/types"
+	"github.com/gmoyal-r7/fanal/utils"
 )
 
 func init() {

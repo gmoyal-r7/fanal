@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func Test_systemFileFilterHook_Hook(t *testing.T) {

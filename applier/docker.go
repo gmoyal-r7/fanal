@@ -3,7 +3,7 @@ package applier
 import (
 	"time"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 	"github.com/knqyf263/nested"
 )
 

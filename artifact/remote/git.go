@@ -9,11 +9,11 @@ import (
 	git "github.com/go-git/go-git/v5"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/artifact/local"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/artifact/local"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 type Artifact struct {

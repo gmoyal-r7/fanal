@@ -1,9 +1,9 @@
 package applier
 
 import (
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/types"
 	"golang.org/x/xerrors"
 )
 

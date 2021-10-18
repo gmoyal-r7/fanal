@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
 )
 
 func TestScannerOption_Sort(t *testing.T) {

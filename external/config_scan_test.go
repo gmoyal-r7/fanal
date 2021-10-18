@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/external"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/external"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestConfigScanner_Scan(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"sort"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/hook"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/hook"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 type Option struct {

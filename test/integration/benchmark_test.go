@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	_ "github.com/gmoyal-r7/fanal/analyzer/all"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/types"
 	dtypes "github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/stretchr/testify/require"

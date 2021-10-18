@@ -13,11 +13,11 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	_ "github.com/aquasecurity/fanal/hook/all"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	_ "github.com/gmoyal-r7/fanal/analyzer/all"
+	aos "github.com/gmoyal-r7/fanal/analyzer/os"
+	_ "github.com/gmoyal-r7/fanal/hook/all"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 type mockConfigAnalyzer struct{}

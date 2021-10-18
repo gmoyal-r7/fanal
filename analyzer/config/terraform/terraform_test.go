@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config/terraform"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer/config/terraform"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestConfigAnalyzer_Analyze(t *testing.T) {

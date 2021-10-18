@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/hook"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/hook"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 type fakeHook struct{}

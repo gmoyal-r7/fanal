@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/config/scanner"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/config/scanner"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestScanner_ScanConfig(t *testing.T) {

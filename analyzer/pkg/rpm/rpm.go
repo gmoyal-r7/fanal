@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/fanal/log"
+	"github.com/gmoyal-r7/fanal/log"
 	rpmdb "github.com/knqyf263/go-rpmdb/pkg"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/types"
+	"github.com/gmoyal-r7/fanal/utils"
 )
 
 func init() {

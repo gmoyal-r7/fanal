@@ -9,8 +9,8 @@ import (
 	"github.com/open-policy-agent/opa/rego"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/policy"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/policy"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 //go:embed detection.rego

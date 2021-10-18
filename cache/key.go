@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/aquasecurity/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/artifact"
 
 	"golang.org/x/mod/sumdb/dirhash"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
 )
 
 func CalcKey(id string, analyzerVersions, hookVersions map[string]int, artifactOpt artifact.Option, scannerOpt config.ScannerOption) (string, error) {

@@ -14,14 +14,14 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/config/scanner"
-	"github.com/aquasecurity/fanal/hook"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/walker"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/config/scanner"
+	"github.com/gmoyal-r7/fanal/hook"
+	"github.com/gmoyal-r7/fanal/types"
+	"github.com/gmoyal-r7/fanal/walker"
 )
 
 const (

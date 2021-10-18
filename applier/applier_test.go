@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/applier"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/applier"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestApplier_ApplyLayers(t *testing.T) {

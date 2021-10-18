@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/hook"
-	_ "github.com/aquasecurity/fanal/hook/all"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	_ "github.com/gmoyal-r7/fanal/analyzer/all"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/hook"
+	_ "github.com/gmoyal-r7/fanal/hook/all"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestArtifact_Inspect(t *testing.T) {

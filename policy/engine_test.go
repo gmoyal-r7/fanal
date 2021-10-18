@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/aquasecurity/fanal/policy"
+	"github.com/gmoyal-r7/fanal/policy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func TestLoad(t *testing.T) {

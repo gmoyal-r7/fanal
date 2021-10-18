@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/artifact"
 )
 
 func TestCalcKey(t *testing.T) {

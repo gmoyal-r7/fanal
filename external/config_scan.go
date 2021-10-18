@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/applier"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/artifact/local"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer/config"
+	"github.com/gmoyal-r7/fanal/applier"
+	"github.com/gmoyal-r7/fanal/artifact"
+	"github.com/gmoyal-r7/fanal/artifact/local"
+	"github.com/gmoyal-r7/fanal/cache"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 type ConfigScanner struct {

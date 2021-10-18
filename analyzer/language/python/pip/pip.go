@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/language"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer/language"
+	"github.com/gmoyal-r7/fanal/types"
 	"github.com/aquasecurity/go-dep-parser/pkg/python/pip"
 	"golang.org/x/xerrors"
 )

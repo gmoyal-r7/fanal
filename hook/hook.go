@@ -1,7 +1,7 @@
 package hook
 
 import (
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 	"golang.org/x/xerrors"
 )
 

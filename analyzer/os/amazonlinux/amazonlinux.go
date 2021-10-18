@@ -10,13 +10,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/gmoyal-r7/fanal/utils"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/types"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
+	aos "github.com/gmoyal-r7/fanal/analyzer/os"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer"
 )
 
 func init() {

@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/utils"
+	aos "github.com/gmoyal-r7/fanal/analyzer/os"
+	"github.com/gmoyal-r7/fanal/types"
+	"github.com/gmoyal-r7/fanal/utils"
 	"golang.org/x/xerrors"
 )
 

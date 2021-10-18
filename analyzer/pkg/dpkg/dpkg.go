@@ -13,8 +13,8 @@ import (
 	debVersion "github.com/knqyf263/go-deb-version"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 func init() {

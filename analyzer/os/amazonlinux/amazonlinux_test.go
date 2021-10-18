@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
+	aos "github.com/gmoyal-r7/fanal/analyzer/os"
+	"github.com/gmoyal-r7/fanal/types"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer"
 )
 
 func Test_amazonlinuxOSAnalyzer_Analyze(t *testing.T) {

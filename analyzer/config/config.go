@@ -7,14 +7,14 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config/docker"
-	"github.com/aquasecurity/fanal/analyzer/config/hcl"
-	"github.com/aquasecurity/fanal/analyzer/config/json"
-	"github.com/aquasecurity/fanal/analyzer/config/terraform"
-	"github.com/aquasecurity/fanal/analyzer/config/toml"
-	"github.com/aquasecurity/fanal/analyzer/config/yaml"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/analyzer/config/docker"
+	"github.com/gmoyal-r7/fanal/analyzer/config/hcl"
+	"github.com/gmoyal-r7/fanal/analyzer/config/json"
+	"github.com/gmoyal-r7/fanal/analyzer/config/terraform"
+	"github.com/gmoyal-r7/fanal/analyzer/config/toml"
+	"github.com/gmoyal-r7/fanal/analyzer/config/yaml"
+	"github.com/gmoyal-r7/fanal/types"
 )
 
 const separator = ":"

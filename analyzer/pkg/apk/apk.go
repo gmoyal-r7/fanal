@@ -10,9 +10,9 @@ import (
 
 	apkVersion "github.com/knqyf263/go-apk-version"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/gmoyal-r7/fanal/analyzer"
+	"github.com/gmoyal-r7/fanal/types"
+	"github.com/gmoyal-r7/fanal/utils"
 )
 
 func init() {
