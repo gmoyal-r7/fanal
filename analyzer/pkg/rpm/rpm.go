@@ -110,7 +110,7 @@ func (a rpmPkgAnalyzer) parsePkgInfo(packageBytes []byte) ([]types.Package, []st
 			SrcRelease:      srcRel,
 			Modularitylabel: pkg.Modularitylabel,
 			License:         pkg.License,
-			Type:			"rpm",
+			Type:            "rpm",
 		}
 		pkgs = append(pkgs, p)
 		installedFiles = append(installedFiles, files...)

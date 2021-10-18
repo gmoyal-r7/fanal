@@ -62,7 +62,7 @@ func (a alpinePkgAnalyzer) parseApkInfo(scanner *bufio.Scanner) ([]types.Package
 		}
 
 		pkg.Type = "apk"
-		
+
 		switch line[:2] {
 		case "P:":
 			pkg.Name = line[2:]
