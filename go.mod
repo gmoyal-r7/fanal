@@ -1,4 +1,4 @@
-module github.com/aquasecurity/fanal
+module github.com/gmoyal-r7/fanal
 
 go 1.16
 
